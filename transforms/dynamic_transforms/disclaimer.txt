@@ -1,0 +1,3 @@
+Move this example_robot.urdf.xacro to the path that is specified in the command while executing
+
+i.e.  ros2 run robot_state_publisher robot_state_publisher  --ros-args  robot_description:="$(xacro ~/example_robot.urdf.xacro)"
